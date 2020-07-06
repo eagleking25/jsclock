@@ -1,0 +1,55 @@
+body {
+    background-color: coral;
+}
+
+.clock-body {
+    top: 30%;
+    left: 40%;
+    border: solid 4px #ffffff;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    transform: translateY(-3px);
+}
+
+.hand {
+    border: solid 3px black;
+    border-top: beige;
+    width: 50%;
+    top: 50%;
+    position: absolute;
+    transform-origin: 100%;
+    transition-duration: 0.5s;
+}
+
+.hours {
+    font-weight: 300;
+    font-size: 2rem;
+    position: absolute;
+    align-content: center;
+}
+
+.right-hour {
+    float: right;
+    margin-top: 250px;
+    position: relative !important;
+    margin-right: 10px;
+}
+
+.left-hour {
+    float: left;
+    margin-top: 250px;
+    position: relative !important;
+    margin-left: 10px;
+}
+
+.top-hour {
+    margin-left: 240px;
+    top: -15px;
+}
+
+.bottom-hour {
+    margin-left: 250px;
+    bottom: -15px;
+}
